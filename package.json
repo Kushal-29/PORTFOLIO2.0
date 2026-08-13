@@ -1,0 +1,12 @@
+{
+  "name": "scroll-animation",
+  "version": "1.0.0",
+  "description": "High performance 60fps canvas scroll animation for 207 image frames",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y serve -l 5173 ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
