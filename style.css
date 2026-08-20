@@ -1210,6 +1210,22 @@ main {
   gap: 24px;
 }
 
+/* FREELANCE WORK - SINGLE LINE (4 COLUMNS) ON DESKTOP */
+#freelance .projects-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#freelance .project-card {
+  padding: 24px 20px;
+}
+
+@media (max-width: 1100px) {
+  #freelance .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .project-card {
   background: var(--bg-card);
   backdrop-filter: blur(16px);
